@@ -12,7 +12,7 @@ The purpose of this repository is to share a R script named "run_analysis.R" tha
 
 1. Having R computing environment installed. The script was tested using the 3.2.1 version of R, but could work on previous versions as well.
 2. Having "dplyr" package installed. The following version was used for the analysis: 0.4.2.
-3. Having in your working directory the raw data set. This should a folder named "UCI HAR Dataset" with all the necessary files. A compressed file with the raw data can be downloaded at the following [link](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
+3. Having in your working directory the raw data set. This should be a folder named "UCI HAR Dataset" with all the necessary files. A compressed file with the raw data can be downloaded at the following [link](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
 
 ## Running the script
 
