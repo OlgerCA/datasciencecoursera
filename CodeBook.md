@@ -5,7 +5,7 @@
 
 1. The data contained in the generated data set ("tidy_data_set.txt") is the result of a series of processing steps that were applied to the raw data set. See "Processing Steps" section below. 
 2. The raw data from which this tidy data set derives from, was a data set used in a classification study. The predicting/features variables were the result of applying certain functions to raw signals produced by the gyroscope and the accelerometer of a Samsung Galaxy S Phone. The predicted variable was the physical activity (running, walking, ...) that the subjects were performing at the time the signals were measured.
-3. Such data set contains one observation for each subject_id/activity pair. There were 30 subjects and 6 activities, so the total number of rows is 30 x 6 = 180 observations.
+3. This data set contains one observation for each subject_id/activity pair. There were 30 subjects and 6 activities, so the total number of rows is 30 x 6 = 180 observations.
 4. In addition to the subject_id/activity values, each observation contain 66 summarizing variables. Each one of those variables represents the average value of a certain feature that was included in the raw data. Such features were the result of applying a mean()/std() function to other measurements involved in the original study.
 
 ## Processing Steps
@@ -32,7 +32,7 @@ Here we attach some descriptions of the variables involved in the tidy data set.
 For the rest of the summarizing variables some general statements can be made.
 
 * All the values are real numbers ranging in the interval [-1,1].
-* Those variables average mean()/std() values that were part of the features contained in the raw data set. The list of values from which the features of the *raw set* derive from are the following:
+* Those variables average mean()/std() values that were part of the features contained in the raw data set. The list of values from which the features of the **raw set** derive from are the following:
 
 1. tBodyAcc-XYZ
 2. tGravityAcc-XYZ
@@ -52,7 +52,7 @@ For the rest of the summarizing variables some general statements can be made.
 18. fBodyGyroMag
 19. fBodyGyroJerkMag
 
-The list of summarizing variables included in the *tidy data set* is the following:
+The list of summarizing variables included in the **tidy data set** is the following:
 
 3. "tBodyAcc-mean()-X-average"
 4. "tBodyAcc-mean()-Y-average"
@@ -121,4 +121,4 @@ The list of summarizing variables included in the *tidy data set* is the followi
 67. "fBodyBodyGyroJerkMag-mean()-average"
 68. "fBodyBodyGyroJerkMag-std()-average"
 
-Note that all the previous values are averages of features included in the raw set. Features themselfs are the result of applying some function (mean() or sd() in this case) to the original accelerometer and gyroscope values. These are usually divided by axis: x, y or z. For a deeper explanation about the features included in the original raw set please take a look at "features_info.txt" of the original set (a link is provided at README.md).
+Note that all the previous values are averages of features included in the raw set. Features themselfs are the result of applying some function (mean() or sd() in this case) to the original accelerometer or gyroscope values. These are usually divided by axis: x, y or z. For a deeper explanation about the features included in the original raw set please take a look at "features_info.txt" of the original set (a link is provided at README.md).
