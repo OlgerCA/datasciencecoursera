@@ -34,23 +34,23 @@ For the rest of the summarizing variables some general statements can be made.
 * All the values are real numbers ranging in the interval [-1,1]. 
 * Those variables average mean()/std() values derived from some features contained in the raw data set:
 
-tBodyAcc-XYZ
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
+1. tBodyAcc-XYZ
+2. tGravityAcc-XYZ
+3. tBodyAccJerk-XYZ
+5. tBodyGyro-XYZ
+6. tBodyGyroJerk-XYZ
+7. tBodyAccMag
+8. tGravityAccMag
+9. tBodyAccJerkMag
+10. tBodyGyroMag
+11. tBodyGyroJerkMag
+12. fBodyAcc-XYZ
+13. fBodyAccJerk-XYZ
+15. fBodyGyro-XYZ
+16. fBodyAccMag
+17. fBodyAccJerkMag
+18. fBodyGyroMag
+19. fBodyGyroJerkMag
 
 The list of variables is the following:
 
